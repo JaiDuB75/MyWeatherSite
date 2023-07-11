@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    flex: 1;
+    margin: 20px;
+}
